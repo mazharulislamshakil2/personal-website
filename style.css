@@ -23,7 +23,19 @@ section.header ul li a {
 }
 
 /*--------------- end header -------------------- */
-
+nav ul li a:hover {
+    color: green;
+    border-bottom: 4px solid;
+    /* margin-top: 17px; */
+    padding-bottom: 9px;
+    transition: .4s;
+}
+li.active {
+    color: green;
+    border-bottom: 4px solid;
+    /* margin-top: 17px; */
+    padding-bottom: 9px;
+}
 section.main-area {
     margin-top: 70px;
 }
