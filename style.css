@@ -1,0 +1,317 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+
+section.header ul li {
+    display: inline-block;
+    /* text-decoration: none; */
+    margin-right: 57px;
+    margin-top: 15px;
+}
+nav ul {
+    float: right;
+    margin-right: 168px;
+}
+section.header ul li a {
+    /* list-style: none; */
+    text-decoration: none;
+    font-size: 23px;
+    color: #3C3C3C;
+}
+
+/*--------------- end header -------------------- */
+
+ 
+.span-color{
+    color: tomato;
+}
+
+img{
+    width: 100%;
+}
+
+section.main-area {
+   
+    display: flex;
+    float: left; 
+}
+
+.single-main {
+    width: 40%;
+    margin-top: -10px;
+  
+    margin-left: 86px;
+}
+
+
+.single-main h1 {
+    font-size: 60px;
+    line-height: 91px;
+    margin-top: 185px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.single-main p {
+    font-size: 19px;
+    margin-top: -34px;
+    line-height: 22px;
+} 
+.single-main a {
+    text-decoration: none;
+    font-size: 14px;
+    background-color: tomato;
+    padding: 12px 36px;
+    border-radius: 10px;
+    
+    color: white;
+}
+/*--------------- end main area -------------------- */
+.single-about h1 {
+    margin-top: 339px;
+}
+
+
+.single-main p {
+    margin-bottom: 33px;
+}
+
+#single-text h1 {
+    font-size: 50px;
+    color: darkblue;
+}
+
+div#single-text p {
+    font-size: 18px;
+   
+}
+
+div#single-text a {
+    color: wheat;
+    background-color: tomato;
+    padding: 12px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+div#single-text p {
+    margin-bottom: 35px;
+    text-decoration: none;
+}
+
+.single-about {
+    width: 40%;
+    margin-top: 
+}
+
+
+
+div#single-text {
+    margin-left: 180px;
+    margin-bottom: 128px;
+    /* margin-top: -100px; */
+}
+.single-about {
+    display: inline-block;
+}
+
+/* 
+
+
+
+
+
+ */
+
+/*--------------- end about area -------------------- */
+
+.container{ 
+  display: flex;
+}
+
+.skills-container{
+  width: 50%;
+  margin: 20px auto;
+}
+
+h4{
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196F3;
+}
+section.skills-container h1 {
+    font-size: 37px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 15px 28px;
+    margin-bottom: 85px;
+    margin-top: 131px;
+    width: 370px;
+    margin-left: 96px;
+}
+
+.skills.css {
+    /* margin-bottom: 6px; */
+}
+
+section.skills-container {
+    margin-bottom: 206px;
+}
+
+section.skills-container h4 {
+    color: red;
+    font-size: 23px;
+}
+
+/* ==============================end skill area */
+
+section.latest-work .single-latest {
+    width: 25%;
+    margin-left: 94px;
+}
+
+section.latest-work {
+    display: flex;
+}
+
+.single-latest h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 38px;
+}
+
+.single-latest p {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.single-latest {
+    box-shadow: #0000005e -2px 1px 20px 0px;
+    padding: 23px 29px;
+}
+
+section.latest-work {
+    margin-bottom: 156px;
+}
+
+section.latest-work img:hover h3 {
+    /* color: green; */
+}
+
+.single-latest :hover h3 {
+    /* color: green; */
+}
+
+.single-latest :hover {
+    /* box-shadow: black 10px 10px 10px 10px; */
+}
+
+.single-latest:hover img {
+    box-shadow: #4caf5063 4px 1px 10px 10px;
+    transition: .3s;
+}
+.latest-work-text h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 49px;
+    margin-bottom: 83px;
+    font-weight: bold;
+}
+
+/* end my latest work  */
+
+.work-area{
+    background-image: url(images/gf.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  
+} 
+
+
+.work-area {
+    width: 36%;
+    height: 110px;
+    margin-left: 439px;
+    display: flex;
+    padding: 11px 39px;
+}
+
+.work-left {
+    padding-top: 9px;
+    font-size: 25px;
+    color: white;
+}
+
+.work-right {
+    margin-left: 143px;
+    margin-top: 43px;
+    background-color: orange;
+    padding: 13px 12px;
+    height: 15px;
+    border-radius: 15px;
+    /* color: white; */
+}
+
+.work-area {
+    border-radius: 30px;
+}
+
+.work-right a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 14px;
+}
+/* end work area */
+
+
+
+.footer-top {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.footer-top h3 {font-size: 17px;color: gray;}
+
+.footer-top a {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.footer-button img {
+    width: 33px;
+    padding: 14px;
+}
+
+.footer-button {
+    margin-left: 590px;
+}
+/* =======================================end footer */
+
+
+
