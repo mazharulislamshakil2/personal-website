@@ -24,7 +24,9 @@ section.header ul li a {
 
 /*--------------- end header -------------------- */
 
- 
+section.main-area {
+    margin-top: 70px;
+}
 .span-color{
     color: tomato;
 }
